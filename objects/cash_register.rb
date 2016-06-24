@@ -24,3 +24,5 @@ class CashRegister
   # off the total in full, or making a partial
   # payment
 end
+
+#Try to commit in 120882811_cash_register_master
