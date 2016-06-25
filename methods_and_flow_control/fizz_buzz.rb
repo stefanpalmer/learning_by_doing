@@ -13,5 +13,5 @@ def number (n)
 end
 
 (1..100).each do |n|
-  puts number(n)
+  print number(n)
 end
