@@ -9,11 +9,11 @@ class Violin
     @tuned = true
   end
 
-  def play (dynamics, tempo, length)
+  def play(dynamics, tempo, length)
     if @tuned = false
       puts 'Tune me first!'
     else
-      puts "Let's play!"
+      puts 'Play!'
       @dynamics = dynamics
       @tempo = tempo
       @length = length
@@ -25,6 +25,7 @@ class Violin
       @length = 0
     end
   end
+end
 
 # This is my Violin class
 # my_violin = Violin.new
