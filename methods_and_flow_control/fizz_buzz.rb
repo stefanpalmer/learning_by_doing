@@ -1,17 +1,17 @@
 #!/usr/bin/env ruby
 
-def number (n)
-  if n % 3 == 0 && n % 5 == 0
-    puts "FizzBuzz"
-  elsif n % 5 == 0
-    puts "Buzz"
-  elsif n % 3 == 0
-    puts "Fizz"
+def fizz_buzz(number)
+  if number % 3 == 0 && number % 5 == 0
+    puts 'FizzBuzz'
+  elsif number % 5 == 0
+    puts 'Buzz'
+  elsif number % 3 == 0
+    puts 'Fizz'
   else
-    puts n
+    puts number
   end
 end
 
-(1..100).each do |n|
-  print number(n)
+(1..100).each do |number|
+  print fizz_buzz(number)
 end
